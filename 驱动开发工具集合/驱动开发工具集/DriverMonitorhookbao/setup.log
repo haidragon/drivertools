@@ -1,0 +1,60 @@
+2007/11/07 01:23:18 Starting cygwin install, version 2.573.2.3
+2007/11/07 01:23:18 io_stream_cygfile: fopen(/etc/setup/last-action) failed 2 No such file or directory
+2007/11/07 01:23:18 io_stream_cygfile: fopen(/etc/setup/last-mirror) failed 2 No such file or directory
+2007/11/07 01:23:18 io_stream_cygfile: fopen(/etc/setup/last-connection) failed 2 No such file or directory
+2007/11/07 01:23:18 io_stream_cygfile: fopen(/etc/setup/last-cache) failed 2 No such file or directory
+2007/11/07 01:23:18 io_stream_cygfile: fopen(/etc/setup/last-extrakeys) failed 2 No such file or directory
+2007/11/07 01:23:18 Current Directory: C:\Documents and Settings\Administrator\桌面
+2007/11/07 01:23:18 Changing gid to Users
+2007/11/07 01:23:18 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2007/11/07 01:23:24 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2007/11/07 01:23:25 source: download
+2007/11/07 01:23:40 io_stream_cygfile: fopen(/etc/setup/last-cache) failed 2 No such file or directory
+2007/11/07 01:23:40 Selected local directory: C:\Documents and Settings\Administrator\桌面\DriverMonitor
+2007/11/07 01:23:42 net: Direct
+2007/11/07 01:23:42 io_stream_cygfile: fopen(/etc/setup/mirrors-lst) failed 2 No such file or directory
+2007/11/07 01:25:57 net: Direct
+2007/11/07 01:26:17 io_stream_cygfile: fopen(/etc/setup/mirrors-lst) failed 2 No such file or directory
+2007/11/07 01:26:17 io_stream_cygfile: fopen(/etc/setup/last-mirror) failed 2 No such file or directory
+2007/11/07 01:26:17 site: http://mirrors.kernel.org/sourceware/cygwin/
+2007/11/07 01:26:25 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2007/11/07 01:26:47 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/alternatives/alternatives-1.3.30c-2.tar.bz2
+2007/11/07 01:26:50 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/ash/ash-20040127-4.tar.bz2
+2007/11/07 01:26:53 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/base-files/base-files-3.7-1.tar.bz2
+2007/11/07 01:26:54 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/base-passwd/base-passwd-2.2-1.tar.bz2
+2007/11/07 01:27:01 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/bash/bash-3.2.39-20.tar.bz2
+2007/11/07 01:27:07 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/bzip2/bzip2-1.0.5-2.tar.bz2
+2007/11/07 01:27:34 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/coreutils/coreutils-6.10-1.tar.bz2
+2007/11/07 01:27:36 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/crypt/crypt-1.1-1.tar.bz2
+2007/11/07 01:27:41 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/cygutils/cygutils-1.3.2-1.tar.bz2
+2007/11/07 01:27:54 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/cygwin/cygwin-1.5.25-15.tar.bz2
+2007/11/07 01:28:03 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/cygwin-doc/cygwin-doc-1.4-4.tar.bz2
+2007/11/07 01:28:06 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/editrights/editrights-1.01-2.tar.bz2
+2007/11/07 01:28:13 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/findutils/findutils-4.4.0-3.tar.bz2
+2007/11/07 01:28:21 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/gawk/gawk-3.1.6-1.tar.bz2
+2007/11/07 01:28:26 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/grep/grep-2.5.3-1.tar.bz2
+2007/11/07 01:28:44 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/groff/groff-1.19.2-2.tar.bz2
+2007/11/07 01:28:48 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/gzip/gzip-1.3.12-2.tar.bz2
+2007/11/07 01:28:52 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/less/less-382-1.tar.bz2
+2007/11/07 01:28:54 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/bzip2/libbz2_1/libbz2_1-1.0.5-2.tar.bz2
+2007/11/07 01:29:03 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/libiconv/libiconv2/libiconv2-1.11-1.tar.bz2
+2007/11/07 01:29:05 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/gettext/libintl3/libintl3-0.14.5-1.tar.bz2
+2007/11/07 01:29:07 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/gettext/libintl8/libintl8-0.15-1.tar.bz2
+2007/11/07 01:29:12 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/ncurses/libncurses8/libncurses8-5.5-3.tar.bz2
+2007/11/07 01:29:17 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/pcre/libpcre0/libpcre0-7.8-1.tar.bz2
+2007/11/07 01:29:19 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/popt/libpopt0/libpopt0-1.6.4-4.tar.bz2
+2007/11/07 01:29:23 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/readline/libreadline6/libreadline6-5.2.12-10.tar.bz2
+2007/11/07 01:29:25 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/login/login-1.9-8.tar.bz2
+2007/11/07 01:29:29 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/man/man-1.6e-1.tar.bz2
+2007/11/07 01:29:33 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/rebase/rebase-2.4.4-1.tar.bz2
+2007/11/07 01:29:36 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/run/run-1.1.10-1.tar.bz2
+2007/11/07 01:29:40 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/sed/sed-4.1.5-2.tar.bz2
+2007/11/07 01:29:49 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/tar/tar-1.20-1.tar.bz2
+2007/11/07 01:29:51 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/termcap/termcap-20050421-1.tar.bz2
+2007/11/07 01:29:55 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/terminfo/terminfo-5.5_20061104-1.tar.bz2
+2007/11/07 01:30:04 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/texinfo/texinfo-4.8a-1.tar.bz2
+2007/11/07 01:30:10 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/tzcode/tzcode-2008a-1.tar.bz2
+2007/11/07 01:30:13 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/which/which-2.19-1.tar.bz2
+2007/11/07 01:30:14 Downloaded C:\Documents and Settings\Administrator\桌面\DriverMonitor/http%3a%2f%2fmirrors.kernel.org%2fsourceware%2fcygwin%2f/release/_update-info-dir/_update-info-dir-00776-1.tar.bz2
+2007/11/07 01:30:25 note: Download Complete
+2007/11/07 01:30:25 Ending cygwin install

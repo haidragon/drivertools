@@ -1,0 +1,101 @@
+=============================D:\DriverMonitor\dbgmsgcfg.dll=========================
+FILEsize = 32768   D:\DriverMonitor\dbgmsgcfg.dll 20:41:36(星期7)  =================
+dosheader e_cp = 3, e_lfanew=0x100   ENTRY 
+dos残余模式大小64,elf位置0x100 
+pe->NumberOfSections:5 SizeOfOptionalHeader大小:224
+<入口地址:1000224d> 校验和:0 <ImageBase:10000000>
+非初始化段:0 初始化段:5000
+SizeOfHeaders:1000 初始化段:5000
+LoaderFlags:0 
+NumberOfRvaAndSizes:10 
+=========================================section ================<<<<<12fa44  
+>section> 文件偏移量1000 60000020 .text virt地址<0x10001000 10003000>  段大小f01000 2000    filestart f03000 fileend 1000
+>section> 文件偏移量3000 40000040 .rdata virt地址<0x10003000 10005000>  段大小f03000 2000    filestart f05000 fileend 3000
+>section> 文件偏移量5000 c0000040 .data virt地址<0x10005000 10006000>  段大小f05000 1000    filestart f06000 fileend 5000
+>section> 文件偏移量6000 40000040 .rsrc virt地址<0x10006000 10007000>  段大小f06000 1000    filestart f07000 fileend 6000
+>section> 文件偏移量7000 42000040 .reloc virt地址<0x10007000 10008000>  段大小f07000 1000    filestart f08000 fileend 7000
+===========================
+pmem = <f00000>
+=========DataDirectory=======================
+DataDirectory:f00178 
+ IMAGE_DIRECTORY_ENTRY_EXPORT          0     (vir off)3c30  .rdata   内存虚拟地址<addr:0x10003c30  10004343> 大小size:0x713  文件中偏移量3c30   <funcitons 452> 
+ IMAGE_DIRECTORY_ENTRY_IMPORT          1     (vir off)38f0  .rdata   内存虚拟地址<addr:0x100038f0  10003954> 大小size:0x64  文件中偏移量38f0   <funcitons 25> 
+ IMAGE_DIRECTORY_ENTRY_RESOURCE        2     (vir off)6000  .rsrc   内存虚拟地址<addr:0x10006000  100068c0> 大小size:0x8c0  文件中偏移量6000   <funcitons 560> 
+ IMAGE_DIRECTORY_ENTRY_BASERELOC       5     (vir off)7000  .reloc   内存虚拟地址<addr:0x10007000  100073a4> 大小size:0x3a4  文件中偏移量7000   <funcitons 233> 
+ IMAGE_DIRECTORY_ENTRY_IAT            12     (vir off)3000  .rdata   内存虚拟地址<addr:0x10003000  10003198> 大小size:0x198  文件中偏移量3000   <funcitons 102> 
+============ MFC42.DLL==395c   3008 =f00000=f0395c   f03008===800002ae   800002ae=====f00000= 
+============ MSVCRT.dll==3aa0   314c =f00000=f03aa0   f0314c===3b16   3b16=====f00000= 
+名字qsort           pfunctionnameList=f03b18 (.rdata)    pFuncAddressInIdata = f03b16(.rdata) VFunentery=1000314c				  pFuncAddress=314c   limit0 =5000 limit2= 3000  
+名字_mbsicmp           pfunctionnameList=f03b20 (.rdata)    pFuncAddressInIdata = f03b36(.rdata) VFunentery=10003150				  pFuncAddress=3150   limit0 =5000 limit2= 3000  
+名字??1type_info@@UAE@XZ           pfunctionnameList=f03b38 (.rdata)    pFuncAddressInIdata = f03b62(.rdata) VFunentery=10003154				  pFuncAddress=3154   limit0 =5000 limit2= 3000  
+名字_except_handler3           pfunctionnameList=f03b50 (.rdata)    pFuncAddressInIdata = f03b7e(.rdata) VFunentery=10003158				  pFuncAddress=3158   limit0 =5000 limit2= 3000  
+名字?terminate@@YAXXZ           pfunctionnameList=f03b64 (.rdata)    pFuncAddressInIdata = f03b94(.rdata) VFunentery=1000315c				  pFuncAddress=315c   limit0 =5000 limit2= 3000  
+名字free           pfunctionnameList=f03b78 (.rdata)    pFuncAddressInIdata = f03b02(.rdata) VFunentery=10003160				  pFuncAddress=3160   limit0 =5000 limit2= 3000  
+名字_initterm           pfunctionnameList=f03b80 (.rdata)    pFuncAddressInIdata = f03bce(.rdata) VFunentery=10003164				  pFuncAddress=3164   limit0 =5000 limit2= 3000  
+名字malloc           pfunctionnameList=f03b8c (.rdata)    pFuncAddressInIdata = f03bf0(.rdata) VFunentery=10003168				  pFuncAddress=3168   limit0 =5000 limit2= 3000  
+名字_adjust_fdiv           pfunctionnameList=f03b96 (.rdata)    pFuncAddressInIdata = f03bc2(.rdata) VFunentery=1000316c				  pFuncAddress=316c   limit0 =5000 limit2= 3000  
+============ USER32.dll==3ad0   317c =f00000=f03ad0   f0317c===3bce   3bce=====f00000= 
+名字MapWindowPoints           pfunctionnameList=f03bd0 (.rdata)    pFuncAddressInIdata = f03bce(.rdata) VFunentery=1000317c				  pFuncAddress=317c   limit0 =5000 limit2= 3000  
+名字GetMessagePos           pfunctionnameList=f03be2 (.rdata)    pFuncAddressInIdata = f03bf0(.rdata) VFunentery=10003180				  pFuncAddress=3180   limit0 =5000 limit2= 3000  
+名字EnableWindow           pfunctionnameList=f03bf2 (.rdata)    pFuncAddressInIdata = f03bc2(.rdata) VFunentery=10003184				  pFuncAddress=3184   limit0 =5000 limit2= 3000  
+============ COMCTL32.dll==3954   3000 =f00000=f03954   f03000===3c0c   3c0c=====f00000= 
+名字ImageList_AddMasked           pfunctionnameList=f03c0e (.rdata)    pFuncAddressInIdata = f03c0c(.rdata) VFunentery=10003000				  pFuncAddress=3000   limit0 =5000 limit2= 3000  
+名字ImageList_AddMasked   文件偏移量0x3c0c   				  dll  COMCTL32.dll 
+名字GetMessagePos   文件偏移量0x3bf0   				  dll  USER32.dll 
+名字malloc   文件偏移量0x3bf0   				  dll  MSVCRT.dll 
+名字_initterm   文件偏移量0x3bce   				  dll  MSVCRT.dll 
+名字MapWindowPoints   文件偏移量0x3bce   				  dll  USER32.dll 
+名字EnableWindow   文件偏移量0x3bc2   				  dll  USER32.dll 
+名字_adjust_fdiv   文件偏移量0x3bc2   				  dll  MSVCRT.dll 
+名字?terminate@@YAXXZ   文件偏移量0x3b94   				  dll  MSVCRT.dll 
+名字_except_handler3   文件偏移量0x3b7e   				  dll  MSVCRT.dll 
+名字??1type_info@@UAE@XZ   文件偏移量0x3b62   				  dll  MSVCRT.dll 
+名字_mbsicmp   文件偏移量0x3b36   				  dll  MSVCRT.dll 
+名字qsort   文件偏移量0x3b16   				  dll  MSVCRT.dll 
+名字free   文件偏移量0x3b02   				  dll  MSVCRT.dll 
++++++++++++++++++++MFC42.DLL  < 80 > ==========================
++++++++++++++++++++MSVCRT.dll  < 11 > ==========================malloc   _initterm   
+_adjust_fdiv   ?terminate@@YAXXZ   _except_handler3   ??1type_info@@UAE@XZ   _mbsicmp   qsort   
+free   
++++++++++++++++++++USER32.dll  < 6 > ==========================GetMessagePos   MapWindowPoints   
+EnableWindow   
++++++++++++++++++++COMCTL32.dll  < 1 > ==========================ImageList_AddMasked   
+===tot moduler========0x00000004
+===tot moduler========MFC42.DLL  80
+===tot moduler========MSVCRT.dll  11
+===tot moduler========USER32.dll  6
+===tot moduler========COMCTL32.dll  1
+======================================================
+MFC42.DLL
+======================================================
+MSVCRT.dll
+MSVCRT.dll                0x 3bf0             malloc
+MSVCRT.dll                0x 3bce             _initterm
+MSVCRT.dll                0x 3bc2             _adjust_fdiv
+MSVCRT.dll                0x 3b94             ?terminate@@YAXXZ
+MSVCRT.dll                0x 3b7e             _except_handler3
+MSVCRT.dll                0x 3b62             ??1type_info@@UAE@XZ
+MSVCRT.dll                0x 3b36             _mbsicmp
+MSVCRT.dll                0x 3b16             qsort
+MSVCRT.dll                0x 3b02             free
+======================================================
+USER32.dll
+USER32.dll                0x 3bf0             GetMessagePos
+USER32.dll                0x 3bce             MapWindowPoints
+USER32.dll                0x 3bc2             EnableWindow
+======================================================
+COMCTL32.dll
+COMCTL32.dll              0x 3c0c             ImageList_AddMasked
+MSVCRT.dll                0x 3b02             free
+MSVCRT.dll                0x 3b16             qsort
+MSVCRT.dll                0x 3b36             _mbsicmp
+MSVCRT.dll                0x 3b62             ??1type_info@@UAE@XZ
+MSVCRT.dll                0x 3b7e             _except_handler3
+MSVCRT.dll                0x 3b94             ?terminate@@YAXXZ
+MSVCRT.dll                0x 3bc2             _adjust_fdiv
+USER32.dll                0x 3bc2             EnableWindow
+USER32.dll                0x 3bce             MapWindowPoints
+MSVCRT.dll                0x 3bce             _initterm
+MSVCRT.dll                0x 3bf0             malloc
+USER32.dll                0x 3bf0             GetMessagePos
+COMCTL32.dll              0x 3c0c             ImageList_AddMasked

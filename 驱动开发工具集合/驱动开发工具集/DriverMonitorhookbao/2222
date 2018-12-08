@@ -1,0 +1,480 @@
+dosheader e_cp = 3, e_lfanew=0xe8   ENTRY 
+dos残余模式大小64,elf位置0xe8 
+pe->NumberOfSections:5 SizeOfOptionalHeader大小:224
+<入口地址:1000ca90> 校验和:0 <ImageBase:10000000>
+非初始化段:0 初始化段:41000
+SizeOfHeaders:1000 初始化段:41000
+LoaderFlags:0 
+NumberOfRvaAndSizes:10 
+=========================================section ================<<<<<12fa44  
+>section> 文件偏移量1000 60000020 .text 内存地址<10001000 10038000>,virt地址<0x10001000 10038000>  段大小10001000 37000    filestart 10038000 fileend 1000
+>section> 文件偏移量38000 40000040 .rdata 内存地址<10038000 1003c000>,virt地址<0x10038000 1003c000>  段大小10038000 4000    filestart 1003c000 fileend 38000
+>section> 文件偏移量3c000 c0000040 .data 内存地址<1003c000 10042000>,virt地址<0x1003c000 10042000>  段大小1003c000 6000    filestart 10042000 fileend 3c000
+>section> 文件偏移量42000 c0000040 .idata 内存地址<10042000 10043000>,virt地址<0x10075000 10076000>  段大小10042000 1000    filestart 10043000 fileend 42000
+>section> 文件偏移量43000 42000040 .reloc 内存地址<10043000 10046000>,virt地址<0x10076000 10079000>  段大小10043000 3000    filestart 10046000 fileend 43000
+===========================
+pmem = <10000000>
+=========DataDirectory=======================
+DataDirectory:10000160 
+ IMAGE_DIRECTORY_ENTRY_EXPORT          0     (vir off)3a9c0  .rdata  内存地址<1003a9c0  1003b61f> VIRT地址<addr:0x1003a9c0  1003b61f> 大小size:0xc5f  文件中偏移量3a9c0   <funcitons 791> 
+ IMAGE_DIRECTORY_ENTRY_IMPORT          1     (vir off)75000  .idata  内存地址<10042000  1004203c> VIRT地址<addr:0x10075000  1007503c> 大小size:0x3c  文件中偏移量42000   <funcitons 15> 
+ IMAGE_DIRECTORY_ENTRY_BASERELOC       5     (vir off)76000  .reloc  内存地址<10043000  10044a34> VIRT地址<addr:0x10076000  10077a34> 大小size:0x1a34  文件中偏移量43000   <funcitons 1677> 
+ IMAGE_DIRECTORY_ENTRY_DEBUG           6     (vir off)38000  .rdata  内存地址<10038000  1003801c> VIRT地址<addr:0x10038000  1003801c> 大小size:0x1c  文件中偏移量38000   <funcitons 7> 
+ IMAGE_DIRECTORY_ENTRY_IAT            12     (vir off)752c0  .idata  内存地址<100422c0  10042544> VIRT地址<addr:0x100752c0  10075544> 大小size:0x284  文件中偏移量422c0   <funcitons 161> 
+============ KERNEL32.dll==7503c   752c0 =10000000=1007503c   100752c0===75544   7c80b859=====10000000= 
+名字VirtualQuery           pfunctionnameList=10075546 (.idata )    pFuncAddres = 100752c4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752c0				  pFuncAddress=752c0   limit0 =43000 limit2= 42000  
+名字LoadLibraryA           pfunctionnameList=10075556 (.idata )    pFuncAddres = 100752cc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752c4				  pFuncAddress=752c4   limit0 =43000 limit2= 42000  
+名字GetProcAddress           pfunctionnameList=10075566 (.idata )    pFuncAddres = 100752d4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752c8				  pFuncAddress=752c8   limit0 =43000 limit2= 42000  
+名字GetPrivateProfileStringA           pfunctionnameList=10075578 (.idata )    pFuncAddres = 100752dc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752cc				  pFuncAddress=752cc   limit0 =43000 limit2= 42000  
+名字GetLocalTime           pfunctionnameList=10075594 (.idata )    pFuncAddres = 100752e4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752d0				  pFuncAddress=752d0   limit0 =43000 limit2= 42000  
+名字GlobalUnlock           pfunctionnameList=100755a4 (.idata )    pFuncAddres = 100752ec(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752d4				  pFuncAddress=752d4   limit0 =43000 limit2= 42000  
+名字GlobalLock           pfunctionnameList=100755b4 (.idata )    pFuncAddres = 100752f4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752d8				  pFuncAddress=752d8   limit0 =43000 limit2= 42000  
+名字GlobalAlloc           pfunctionnameList=100755c2 (.idata )    pFuncAddres = 100752fc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752dc				  pFuncAddress=752dc   limit0 =43000 limit2= 42000  
+名字MapViewOfFile           pfunctionnameList=100755d0 (.idata )    pFuncAddres = 10075304(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752e0				  pFuncAddress=752e0   limit0 =43000 limit2= 42000  
+名字CreateFileMappingA           pfunctionnameList=100755e0 (.idata )    pFuncAddres = 1007530c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752e4				  pFuncAddress=752e4   limit0 =43000 limit2= 42000  
+名字OpenFileMappingA           pfunctionnameList=100755f6 (.idata )    pFuncAddres = 10075314(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752e8				  pFuncAddress=752e8   limit0 =43000 limit2= 42000  
+名字CreateFileA           pfunctionnameList=1007560a (.idata )    pFuncAddres = 1007531c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752ec				  pFuncAddress=752ec   limit0 =43000 limit2= 42000  
+名字WaitForSingleObject           pfunctionnameList=10075618 (.idata )    pFuncAddres = 10075324(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752f0				  pFuncAddress=752f0   limit0 =43000 limit2= 42000  
+名字OpenMutexA           pfunctionnameList=1007562e (.idata )    pFuncAddres = 1007532c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752f4				  pFuncAddress=752f4   limit0 =43000 limit2= 42000  
+名字ReleaseMutex           pfunctionnameList=1007563c (.idata )    pFuncAddres = 10075334(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752f8				  pFuncAddress=752f8   limit0 =43000 limit2= 42000  
+名字Sleep           pfunctionnameList=1007564c (.idata )    pFuncAddres = 1007533c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100752fc				  pFuncAddress=752fc   limit0 =43000 limit2= 42000  
+名字CreateThread           pfunctionnameList=10075654 (.idata )    pFuncAddres = 10075344(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075300				  pFuncAddress=75300   limit0 =43000 limit2= 42000  
+名字GetModuleHandleA           pfunctionnameList=10075664 (.idata )    pFuncAddres = 1007534c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075304				  pFuncAddress=75304   limit0 =43000 limit2= 42000  
+名字CreateMutexA           pfunctionnameList=10075678 (.idata )    pFuncAddres = 10075354(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075308				  pFuncAddress=75308   limit0 =43000 limit2= 42000  
+名字CloseHandle           pfunctionnameList=10075688 (.idata )    pFuncAddres = 1007535c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007530c				  pFuncAddress=7530c   limit0 =43000 limit2= 42000  
+名字CreateRemoteThread           pfunctionnameList=10075696 (.idata )    pFuncAddres = 10075364(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075310				  pFuncAddress=75310   limit0 =43000 limit2= 42000  
+名字WriteProcessMemory           pfunctionnameList=100756ac (.idata )    pFuncAddres = 1007536c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075314				  pFuncAddress=75314   limit0 =43000 limit2= 42000  
+名字VirtualAllocEx           pfunctionnameList=100756c2 (.idata )    pFuncAddres = 10075374(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075318				  pFuncAddress=75318   limit0 =43000 limit2= 42000  
+名字OpenProcess           pfunctionnameList=100756d4 (.idata )    pFuncAddres = 1007537c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007531c				  pFuncAddress=7531c   limit0 =43000 limit2= 42000  
+名字GetCommandLineA           pfunctionnameList=100756e2 (.idata )    pFuncAddres = 10075384(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075320				  pFuncAddress=75320   limit0 =43000 limit2= 42000  
+名字GetLastError           pfunctionnameList=100756f4 (.idata )    pFuncAddres = 1007538c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075324				  pFuncAddress=75324   limit0 =43000 limit2= 42000  
+名字FormatMessageA           pfunctionnameList=10075704 (.idata )    pFuncAddres = 10075394(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075328				  pFuncAddress=75328   limit0 =43000 limit2= 42000  
+名字LocalFree           pfunctionnameList=10075716 (.idata )    pFuncAddres = 1007539c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007532c				  pFuncAddress=7532c   limit0 =43000 limit2= 42000  
+名字Process32Next           pfunctionnameList=10075722 (.idata )    pFuncAddres = 100753a4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075330				  pFuncAddress=75330   limit0 =43000 limit2= 42000  
+名字Process32First           pfunctionnameList=10075732 (.idata )    pFuncAddres = 100753ac(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075334				  pFuncAddress=75334   limit0 =43000 limit2= 42000  
+名字CreateToolhelp32Snapshot           pfunctionnameList=10075744 (.idata )    pFuncAddres = 100753b4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075338				  pFuncAddress=75338   limit0 =43000 limit2= 42000  
+名字Module32Next           pfunctionnameList=10075760 (.idata )    pFuncAddres = 100753bc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007533c				  pFuncAddress=7533c   limit0 =43000 limit2= 42000  
+名字Module32First           pfunctionnameList=10075770 (.idata )    pFuncAddres = 100753c4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075340				  pFuncAddress=75340   limit0 =43000 limit2= 42000  
+名字GetCurrentProcess           pfunctionnameList=10075780 (.idata )    pFuncAddres = 100753cc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075344				  pFuncAddress=75344   limit0 =43000 limit2= 42000  
+名字VirtualProtect           pfunctionnameList=10075794 (.idata )    pFuncAddres = 100753d4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075348				  pFuncAddress=75348   limit0 =43000 limit2= 42000  
+名字ReadFile           pfunctionnameList=100757a6 (.idata )    pFuncAddres = 100753dc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007534c				  pFuncAddress=7534c   limit0 =43000 limit2= 42000  
+名字WriteFile           pfunctionnameList=100757b2 (.idata )    pFuncAddres = 100753e4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075350				  pFuncAddress=75350   limit0 =43000 limit2= 42000  
+名字CompareStringW           pfunctionnameList=10075d5c (.idata )    pFuncAddres = 100753ec(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075354				  pFuncAddress=75354   limit0 =43000 limit2= 42000  
+名字CompareStringA           pfunctionnameList=10075d4a (.idata )    pFuncAddres = 100753f4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075358				  pFuncAddress=75358   limit0 =43000 limit2= 42000  
+名字GetLocaleInfoW           pfunctionnameList=10075d38 (.idata )    pFuncAddres = 100753fc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007535c				  pFuncAddress=7535c   limit0 =43000 limit2= 42000  
+名字SetEndOfFile           pfunctionnameList=10075d28 (.idata )    pFuncAddres = 10075404(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075360				  pFuncAddress=75360   limit0 =43000 limit2= 42000  
+名字GetOEMCP           pfunctionnameList=10075d1c (.idata )    pFuncAddres = 1007540c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075364				  pFuncAddress=75364   limit0 =43000 limit2= 42000  
+名字GetACP           pfunctionnameList=10075d12 (.idata )    pFuncAddres = 10075414(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075368				  pFuncAddress=75368   limit0 =43000 limit2= 42000  
+名字IsBadCodePtr           pfunctionnameList=10075d02 (.idata )    pFuncAddres = 1007541c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007536c				  pFuncAddress=7536c   limit0 =43000 limit2= 42000  
+名字SetUnhandledExceptionFilter           pfunctionnameList=10075ce4 (.idata )    pFuncAddres = 10075424(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075370				  pFuncAddress=75370   limit0 =43000 limit2= 42000  
+名字LCMapStringW           pfunctionnameList=10075cd4 (.idata )    pFuncAddres = 1007542c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075374				  pFuncAddress=75374   limit0 =43000 limit2= 42000  
+名字LCMapStringA           pfunctionnameList=10075cc4 (.idata )    pFuncAddres = 10075434(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075378				  pFuncAddress=75378   limit0 =43000 limit2= 42000  
+名字GetUserDefaultLCID           pfunctionnameList=10075cae (.idata )    pFuncAddres = 1007543c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007537c				  pFuncAddress=7537c   limit0 =43000 limit2= 42000  
+名字IsBadWritePtr           pfunctionnameList=1007588c (.idata )    pFuncAddres = 10075444(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075380				  pFuncAddress=75380   limit0 =43000 limit2= 42000  
+名字IsBadReadPtr           pfunctionnameList=1007589c (.idata )    pFuncAddres = 1007544c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075384				  pFuncAddress=75384   limit0 =43000 limit2= 42000  
+名字HeapValidate           pfunctionnameList=100758ac (.idata )    pFuncAddres = 10075454(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075388				  pFuncAddress=75388   limit0 =43000 limit2= 42000  
+名字GetTimeZoneInformation           pfunctionnameList=100758bc (.idata )    pFuncAddres = 1007545c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007538c				  pFuncAddress=7538c   limit0 =43000 limit2= 42000  
+名字GetSystemTime           pfunctionnameList=100758d6 (.idata )    pFuncAddres = 10075464(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075390				  pFuncAddress=75390   limit0 =43000 limit2= 42000  
+名字GetModuleFileNameA           pfunctionnameList=100758e6 (.idata )    pFuncAddres = 1007546c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075394				  pFuncAddress=75394   limit0 =43000 limit2= 42000  
+名字RtlUnwind           pfunctionnameList=100758fc (.idata )    pFuncAddres = 10075474(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075398				  pFuncAddress=75398   limit0 =43000 limit2= 42000  
+名字GetVersion           pfunctionnameList=10075908 (.idata )    pFuncAddres = 1007547c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007539c				  pFuncAddress=7539c   limit0 =43000 limit2= 42000  
+名字DebugBreak           pfunctionnameList=10075916 (.idata )    pFuncAddres = 10075484(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753a0				  pFuncAddress=753a0   limit0 =43000 limit2= 42000  
+名字GetStdHandle           pfunctionnameList=10075924 (.idata )    pFuncAddres = 1007548c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753a4				  pFuncAddress=753a4   limit0 =43000 limit2= 42000  
+名字InterlockedDecrement           pfunctionnameList=10075934 (.idata )    pFuncAddres = 10075494(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753a8				  pFuncAddress=753a8   limit0 =43000 limit2= 42000  
+名字OutputDebugStringA           pfunctionnameList=1007594c (.idata )    pFuncAddres = 1007549c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753ac				  pFuncAddress=753ac   limit0 =43000 limit2= 42000  
+名字InterlockedIncrement           pfunctionnameList=10075962 (.idata )    pFuncAddres = 100754a4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753b0				  pFuncAddress=753b0   limit0 =43000 limit2= 42000  
+名字EnterCriticalSection           pfunctionnameList=1007597a (.idata )    pFuncAddres = 100754ac(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753b4				  pFuncAddress=753b4   limit0 =43000 limit2= 42000  
+名字LeaveCriticalSection           pfunctionnameList=10075992 (.idata )    pFuncAddres = 100754b4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753b8				  pFuncAddress=753b8   limit0 =43000 limit2= 42000  
+名字FlushFileBuffers           pfunctionnameList=100759aa (.idata )    pFuncAddres = 100754bc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753bc				  pFuncAddress=753bc   limit0 =43000 limit2= 42000  
+名字InitializeCriticalSection           pfunctionnameList=100759be (.idata )    pFuncAddres = 100754c4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753c0				  pFuncAddress=753c0   limit0 =43000 limit2= 42000  
+名字DeleteCriticalSection           pfunctionnameList=100759da (.idata )    pFuncAddres = 100754cc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753c4				  pFuncAddress=753c4   limit0 =43000 limit2= 42000  
+名字ExitProcess           pfunctionnameList=100759f2 (.idata )    pFuncAddres = 100754d4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753c8				  pFuncAddress=753c8   limit0 =43000 limit2= 42000  
+名字FatalAppExitA           pfunctionnameList=10075a00 (.idata )    pFuncAddres = 100754dc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753cc				  pFuncAddress=753cc   limit0 =43000 limit2= 42000  
+名字HeapAlloc           pfunctionnameList=10075a10 (.idata )    pFuncAddres = 100754e4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753d0				  pFuncAddress=753d0   limit0 =43000 limit2= 42000  
+名字HeapReAlloc           pfunctionnameList=10075a1c (.idata )    pFuncAddres = 100754ec(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753d4				  pFuncAddress=753d4   limit0 =43000 limit2= 42000  
+名字HeapFree           pfunctionnameList=10075a2a (.idata )    pFuncAddres = 100754f4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753d8				  pFuncAddress=753d8   limit0 =43000 limit2= 42000  
+名字VirtualFree           pfunctionnameList=10075a36 (.idata )    pFuncAddres = 100754fc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753dc				  pFuncAddress=753dc   limit0 =43000 limit2= 42000  
+名字VirtualAlloc           pfunctionnameList=10075a44 (.idata )    pFuncAddres = 10075504(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753e0				  pFuncAddress=753e0   limit0 =43000 limit2= 42000  
+名字GetEnvironmentVariableA           pfunctionnameList=10075a54 (.idata )    pFuncAddres = 1007550c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753e4				  pFuncAddress=753e4   limit0 =43000 limit2= 42000  
+名字GetVersionExA           pfunctionnameList=10075a6e (.idata )    pFuncAddres = 10075514(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753e8				  pFuncAddress=753e8   limit0 =43000 limit2= 42000  
+名字HeapDestroy           pfunctionnameList=10075a7e (.idata )    pFuncAddres = 1007551c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753ec				  pFuncAddress=753ec   limit0 =43000 limit2= 42000  
+名字HeapCreate           pfunctionnameList=10075a8c (.idata )    pFuncAddres = 10075524(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753f0				  pFuncAddress=753f0   limit0 =43000 limit2= 42000  
+名字TerminateProcess           pfunctionnameList=10075a9a (.idata )    pFuncAddres = 1007552c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753f4				  pFuncAddress=753f4   limit0 =43000 limit2= 42000  
+名字SetHandleCount           pfunctionnameList=10075aae (.idata )    pFuncAddres = 10075534(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753f8				  pFuncAddress=753f8   limit0 =43000 limit2= 42000  
+名字GetFileType           pfunctionnameList=10075ac0 (.idata )    pFuncAddres = 1007553c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100753fc				  pFuncAddress=753fc   limit0 =43000 limit2= 42000  
+名字GetStartupInfoA           pfunctionnameList=10075ace (.idata )    pFuncAddres = 10075544(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075400				  pFuncAddress=75400   limit0 =43000 limit2= 42000  
+名字SetFilePointer           pfunctionnameList=10075ae0 (.idata )    pFuncAddres = 1007554c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075404				  pFuncAddress=75404   limit0 =43000 limit2= 42000  
+名字GetCurrentThreadId           pfunctionnameList=10075af2 (.idata )    pFuncAddres = 10075554(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075408				  pFuncAddress=75408   limit0 =43000 limit2= 42000  
+名字TlsSetValue           pfunctionnameList=10075b08 (.idata )    pFuncAddres = 1007555c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007540c				  pFuncAddress=7540c   limit0 =43000 limit2= 42000  
+名字TlsAlloc           pfunctionnameList=10075b16 (.idata )    pFuncAddres = 10075564(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075410				  pFuncAddress=75410   limit0 =43000 limit2= 42000  
+名字TlsFree           pfunctionnameList=10075b22 (.idata )    pFuncAddres = 1007556c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075414				  pFuncAddress=75414   limit0 =43000 limit2= 42000  
+名字SetLastError           pfunctionnameList=10075b2c (.idata )    pFuncAddres = 10075574(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075418				  pFuncAddress=75418   limit0 =43000 limit2= 42000  
+名字TlsGetValue           pfunctionnameList=10075b3c (.idata )    pFuncAddres = 1007557c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007541c				  pFuncAddress=7541c   limit0 =43000 limit2= 42000  
+名字GetCurrentThread           pfunctionnameList=10075b4a (.idata )    pFuncAddres = 10075584(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075420				  pFuncAddress=75420   limit0 =43000 limit2= 42000  
+名字SetConsoleCtrlHandler           pfunctionnameList=10075b5e (.idata )    pFuncAddres = 1007558c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075424				  pFuncAddress=75424   limit0 =43000 limit2= 42000  
+名字FreeEnvironmentStringsA           pfunctionnameList=10075b76 (.idata )    pFuncAddres = 10075594(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075428				  pFuncAddress=75428   limit0 =43000 limit2= 42000  
+名字FreeEnvironmentStringsW           pfunctionnameList=10075b90 (.idata )    pFuncAddres = 1007559c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007542c				  pFuncAddress=7542c   limit0 =43000 limit2= 42000  
+名字WideCharToMultiByte           pfunctionnameList=10075baa (.idata )    pFuncAddres = 100755a4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075430				  pFuncAddress=75430   limit0 =43000 limit2= 42000  
+名字GetEnvironmentStrings           pfunctionnameList=10075bc0 (.idata )    pFuncAddres = 100755ac(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075434				  pFuncAddress=75434   limit0 =43000 limit2= 42000  
+名字GetEnvironmentStringsW           pfunctionnameList=10075bd8 (.idata )    pFuncAddres = 100755b4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075438				  pFuncAddress=75438   limit0 =43000 limit2= 42000  
+名字MultiByteToWideChar           pfunctionnameList=10075bf2 (.idata )    pFuncAddres = 100755bc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007543c				  pFuncAddress=7543c   limit0 =43000 limit2= 42000  
+名字GetStringTypeA           pfunctionnameList=10075c08 (.idata )    pFuncAddres = 100755c4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075440				  pFuncAddress=75440   limit0 =43000 limit2= 42000  
+名字GetStringTypeW           pfunctionnameList=10075c1a (.idata )    pFuncAddres = 100755cc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075444				  pFuncAddress=75444   limit0 =43000 limit2= 42000  
+名字SetStdHandle           pfunctionnameList=10075c2c (.idata )    pFuncAddres = 100755d4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075448				  pFuncAddress=75448   limit0 =43000 limit2= 42000  
+名字UnhandledExceptionFilter           pfunctionnameList=10075c3c (.idata )    pFuncAddres = 100755dc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007544c				  pFuncAddress=7544c   limit0 =43000 limit2= 42000  
+名字GetCPInfo           pfunctionnameList=10075c58 (.idata )    pFuncAddres = 100755e4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075450				  pFuncAddress=75450   limit0 =43000 limit2= 42000  
+名字IsValidLocale           pfunctionnameList=10075c64 (.idata )    pFuncAddres = 100755ec(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075454				  pFuncAddress=75454   limit0 =43000 limit2= 42000  
+名字IsValidCodePage           pfunctionnameList=10075c74 (.idata )    pFuncAddres = 100755f4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075458				  pFuncAddress=75458   limit0 =43000 limit2= 42000  
+名字GetLocaleInfoA           pfunctionnameList=10075c86 (.idata )    pFuncAddres = 100755fc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007545c				  pFuncAddress=7545c   limit0 =43000 limit2= 42000  
+名字EnumSystemLocalesA           pfunctionnameList=10075c98 (.idata )    pFuncAddres = 10075604(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075460				  pFuncAddress=75460   limit0 =43000 limit2= 42000  
+名字SetEnvironmentVariableA           pfunctionnameList=10075d6e (.idata )    pFuncAddres = 1007560c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075464				  pFuncAddress=75464   limit0 =43000 limit2= 42000  
+============ USER32.dll==75264   754e8 =10000000=10075264   100754e8===75870   77d66116=====10000000= 
+名字MessageBoxW           pfunctionnameList=10075872 (.idata )    pFuncAddres = 100754ec(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100754e8				  pFuncAddress=754e8   limit0 =43000 limit2= 42000  
+名字EmptyClipboard           pfunctionnameList=10075860 (.idata )    pFuncAddres = 100754f4(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100754ec				  pFuncAddress=754ec   limit0 =43000 limit2= 42000  
+名字SetClipboardData           pfunctionnameList=1007584c (.idata )    pFuncAddres = 100754fc(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100754f0				  pFuncAddress=754f0   limit0 =43000 limit2= 42000  
+名字OpenClipboard           pfunctionnameList=1007583c (.idata )    pFuncAddres = 10075504(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100754f4				  pFuncAddress=754f4   limit0 =43000 limit2= 42000  
+名字GetClipboardData           pfunctionnameList=10075828 (.idata )    pFuncAddres = 1007550c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100754f8				  pFuncAddress=754f8   limit0 =43000 limit2= 42000  
+名字CloseClipboard           pfunctionnameList=10075816 (.idata )    pFuncAddres = 10075514(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=100754fc				  pFuncAddress=754fc   limit0 =43000 limit2= 42000  
+名字UnhookWindowsHookEx           pfunctionnameList=10075800 (.idata )    pFuncAddres = 1007551c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075500				  pFuncAddress=75500   limit0 =43000 limit2= 42000  
+名字SetWindowsHookExA           pfunctionnameList=100757ec (.idata )    pFuncAddres = 10075524(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075504				  pFuncAddress=75504   limit0 =43000 limit2= 42000  
+名字CallNextHookEx           pfunctionnameList=100757da (.idata )    pFuncAddres = 1007552c(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=10075508				  pFuncAddress=75508   limit0 =43000 limit2= 42000  
+名字MessageBoxA           pfunctionnameList=100757cc (.idata )    pFuncAddres = 10075534(.idata  IMAGE_DIRECTORY_ENTRY_IAT            12    ) VFunentery=1007550c				  pFuncAddress=7550c   limit0 =43000 limit2= 42000  
+名字LocalFree   文件偏移量0x7c957a40   				  dll  KERNEL32.dll 
+名字VirtualProtect   文件偏移量0x7c9305d4   				  dll  KERNEL32.dll 
+名字ReadFile   文件偏移量0x7c93043d   				  dll  KERNEL32.dll 
+名字IsBadCodePtr   文件偏移量0x7c930340   				  dll  KERNEL32.dll 
+名字Module32Next   文件偏移量0x7c9210ed   				  dll  KERNEL32.dll 
+名字Sleep   文件偏移量0x7c8647b7   				  dll  KERNEL32.dll 
+名字CreateThread   文件偏移量0x7c863ed8   				  dll  KERNEL32.dll 
+名字ReleaseMutex   文件偏移量0x7c863c00   				  dll  KERNEL32.dll 
+名字GetLastError   文件偏移量0x7c85e79b   				  dll  KERNEL32.dll 
+名字Process32Next   文件偏移量0x7c859956   				  dll  KERNEL32.dll 
+名字IsBadWritePtr   文件偏移量0x7c838cb9   				  dll  KERNEL32.dll 
+名字GetSystemTime   文件偏移量0x7c8370ed   				  dll  KERNEL32.dll 
+名字OpenProcess   文件偏移量0x7c832e2b   				  dll  KERNEL32.dll 
+名字OpenMutexA   文件偏移量0x7c825f62   				  dll  KERNEL32.dll 
+名字CreateRemoteThread   文件偏移量0x7c81f850   				  dll  KERNEL32.dll 
+名字LCMapStringW   文件偏移量0x7c81dc3f   				  dll  KERNEL32.dll 
+名字IsBadReadPtr   文件偏移量0x7c81d8cb   				  dll  KERNEL32.dll 
+名字GetCurrentProcess   文件偏移量0x7c81caa2   				  dll  KERNEL32.dll 
+名字WaitForSingleObject   文件偏移量0x7c812c8d   				  dll  KERNEL32.dll 
+名字GetUserDefaultLCID   文件偏移量0x7c812c78   				  dll  KERNEL32.dll 
+名字HeapValidate   文件偏移量0x7c812be6   				  dll  KERNEL32.dll 
+名字GetACP   文件偏移量0x7c812b0f   				  dll  KERNEL32.dll 
+名字CompareStringA   文件偏移量0x7c812929   				  dll  KERNEL32.dll 
+名字CompareStringW   文件偏移量0x7c812851   				  dll  KERNEL32.dll 
+名字GetTimeZoneInformation   文件偏移量0x7c8112e3   				  dll  KERNEL32.dll 
+名字CreateMutexA   文件偏移量0x7c810f9f   				  dll  KERNEL32.dll 
+名字MapViewOfFile   文件偏移量0x7c81082f   				  dll  KERNEL32.dll 
+名字OpenFileMappingA   文件偏移量0x7c810626   				  dll  KERNEL32.dll 
+名字VirtualAllocEx   文件偏移量0x7c810386   				  dll  KERNEL32.dll 
+名字GetPrivateProfileStringA   文件偏移量0x7c810119   				  dll  KERNEL32.dll 
+名字CreateFileMappingA   文件偏移量0x7c80eb3f   				  dll  KERNEL32.dll 
+名字CloseHandle   文件偏移量0x7c80d293   				  dll  KERNEL32.dll 
+名字GetProcAddress   文件偏移量0x7c80c9c1   				  dll  KERNEL32.dll 
+名字GetLocaleInfoW   文件偏移量0x7c80c6cf   				  dll  KERNEL32.dll 
+名字GlobalUnlock   文件偏移量0x7c80b9fe   				  dll  KERNEL32.dll 
+名字VirtualQuery   文件偏移量0x7c80b859   				  dll  KERNEL32.dll 
+名字GetLocalTime   文件偏移量0x7c80b78d   				  dll  KERNEL32.dll 
+名字LoadLibraryA   文件偏移量0x7c80ac28   				  dll  KERNEL32.dll 
+名字LCMapStringA   文件偏移量0x7c80a0c7   				  dll  KERNEL32.dll 
+名字Module32First   文件偏移量0x7c809fa1   				  dll  KERNEL32.dll 
+名字GetCommandLineA   文件偏移量0x7c809f29   				  dll  KERNEL32.dll 
+名字CreateFileA   文件偏移量0x7c809aa2   				  dll  KERNEL32.dll 
+名字WriteFile   文件偏移量0x7c809a81   				  dll  KERNEL32.dll 
+名字WriteProcessMemory   文件偏移量0x7c809943   				  dll  KERNEL32.dll 
+名字SetUnhandledExceptionFilter   文件偏移量0x7c809919   				  dll  KERNEL32.dll 
+名字Process32First   文件偏移量0x7c809794   				  dll  KERNEL32.dll 
+名字CreateToolhelp32Snapshot   文件偏移量0x7c80977b   				  dll  KERNEL32.dll 
+名字GetOEMCP   文件偏移量0x7c809737   				  dll  KERNEL32.dll 
+名字GlobalLock   文件偏移量0x7c802530   				  dll  KERNEL32.dll 
+名字GlobalAlloc   文件偏移量0x7c8024a7   				  dll  KERNEL32.dll 
+名字SetEndOfFile   文件偏移量0x7c801eee   				  dll  KERNEL32.dll 
+名字GetModuleHandleA   文件偏移量0x7c801ad0   				  dll  KERNEL32.dll 
+名字FormatMessageA   文件偏移量0x7c80176b   				  dll  KERNEL32.dll 
+名字HeapReAlloc   文件偏移量0x77d66116   				  dll  KERNEL32.dll 
+名字MessageBoxW   文件偏移量0x77d66116   				  dll  USER32.dll 
+名字HeapFree   文件偏移量0x77d3ff10   				  dll  KERNEL32.dll 
+名字EmptyClipboard   文件偏移量0x77d3ff10   				  dll  USER32.dll 
+名字VirtualFree   文件偏移量0x77d3fcb2   				  dll  KERNEL32.dll 
+名字SetClipboardData   文件偏移量0x77d3fcb2   				  dll  USER32.dll 
+名字VirtualAlloc   文件偏移量0x77d3f29f   				  dll  KERNEL32.dll 
+名字OpenClipboard   文件偏移量0x77d3f29f   				  dll  USER32.dll 
+名字GetEnvironmentVariableA   文件偏移量0x77d1ed6e   				  dll  KERNEL32.dll 
+名字GetClipboardData   文件偏移量0x77d1ed6e   				  dll  USER32.dll 
+名字SetLastError   文件偏移量0x73736572   				  dll  KERNEL32.dll 
+名字SetConsoleCtrlHandler   文件偏移量0x72745365   				  dll  KERNEL32.dll 
+名字GetCurrentThread   文件偏移量0x72506574   				  dll  KERNEL32.dll 
+名字SetEnvironmentVariableA   文件偏移量0x72430034   				  dll  KERNEL32.dll 
+名字TlsFree   文件偏移量0x6f725074   				  dll  KERNEL32.dll 
+名字GetStringTypeW   文件偏移量0x6f6c6c41   				  dll  KERNEL32.dll 
+名字MultiByteToWideChar   文件偏移量0x6f4c6c61   				  dll  KERNEL32.dll 
+名字EnumSystemLocalesA   文件偏移量0x6e697070   				  dll  KERNEL32.dll 
+名字GetEnvironmentStrings   文件偏移量0x6e556c61   				  dll  KERNEL32.dll 
+名字UnhandledExceptionFilter   文件偏移量0x6c694666   				  dll  KERNEL32.dll 
+名字FreeEnvironmentStringsW   文件偏移量0x6c61636f   				  dll  KERNEL32.dll 
+名字GetStringTypeA   文件偏移量0x6c470181   				  dll  KERNEL32.dll 
+名字TlsSetValue   文件偏移量0x694c6461   				  dll  KERNEL32.dll 
+名字GetLocaleInfoA   文件偏移量0x69466e65   				  dll  KERNEL32.dll 
+名字SetFilePointer   文件偏移量0x61757472   				  dll  KERNEL32.dll 
+名字GetCPInfo   文件偏移量0x61657243   				  dll  KERNEL32.dll 
+名字IsValidLocale   文件偏移量0x614d656c   				  dll  KERNEL32.dll 
+名字SetStdHandle   文件偏移量0x5670614d   				  dll  KERNEL32.dll 
+名字TlsGetValue   文件偏移量0x50746547   				  dll  KERNEL32.dll 
+名字WideCharToMultiByte   文件偏移量0x1930000   				  dll  KERNEL32.dll 
+名字GetEnvironmentStringsW   文件偏移量0x18c0000   				  dll  KERNEL32.dll 
+名字FreeEnvironmentStringsA   文件偏移量0x11b0000   				  dll  KERNEL32.dll 
+名字GetCurrentThreadId   文件偏移量0x7972   				  dll  KERNEL32.dll 
+名字TlsAlloc   文件偏移量0x4179   				  dll  KERNEL32.dll 
+名字IsValidCodePage   文件偏移量0x4167   				  dll  KERNEL32.dll 
+名字DeleteCriticalSection   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字ExitProcess   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字FatalAppExitA   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字HeapAlloc   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字GetModuleFileNameA   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字RtlUnwind   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字GetVersion   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字DebugBreak   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字GetStdHandle   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字GetVersionExA   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字HeapDestroy   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字HeapCreate   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字TerminateProcess   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字SetHandleCount   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字GetFileType   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字GetStartupInfoA   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字InterlockedDecrement   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字OutputDebugStringA   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字InterlockedIncrement   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字EnterCriticalSection   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字LeaveCriticalSection   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字FlushFileBuffers   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字InitializeCriticalSection   文件偏移量0x0   				  dll  KERNEL32.dll 
+名字CloseClipboard   文件偏移量0x0   				  dll  USER32.dll 
+名字UnhookWindowsHookEx   文件偏移量0x0   				  dll  USER32.dll 
+名字SetWindowsHookExA   文件偏移量0x0   				  dll  USER32.dll 
+名字CallNextHookEx   文件偏移量0x0   				  dll  USER32.dll 
+名字MessageBoxA   文件偏移量0x0   				  dll  USER32.dll 
++++++++++++++++++++KERNEL32.dll  < 106 > ==========================LocalFree   VirtualProtect   
+ReadFile   IsBadCodePtr   Module32Next   Sleep   CreateThread   ReleaseMutex   GetLastError   
+Process32Next   IsBadWritePtr   GetSystemTime   OpenProcess   OpenMutexA   CreateRemoteThread   
+LCMapStringW   IsBadReadPtr   GetCurrentProcess   WaitForSingleObject   GetUserDefaultLCID   
+HeapValidate   GetACP   CompareStringA   CompareStringW   GetTimeZoneInformation   CreateMutexA   
+MapViewOfFile   OpenFileMappingA   VirtualAllocEx   GetPrivateProfileStringA   
+CreateFileMappingA   CloseHandle   GetProcAddress   GetLocaleInfoW   GlobalUnlock   VirtualQuery   
+GetLocalTime   LoadLibraryA   LCMapStringA   Module32First   GetCommandLineA   CreateFileA   
+WriteFile   WriteProcessMemory   SetUnhandledExceptionFilter   Process32First   
+CreateToolhelp32Snapshot   GetOEMCP   GlobalLock   GlobalAlloc   SetEndOfFile   GetModuleHandleA   
+FormatMessageA   HeapReAlloc   HeapFree   VirtualFree   VirtualAlloc   GetEnvironmentVariableA   
+SetLastError   SetConsoleCtrlHandler   GetCurrentThread   SetEnvironmentVariableA   TlsFree   
+GetStringTypeW   MultiByteToWideChar   EnumSystemLocalesA   GetEnvironmentStrings   
+UnhandledExceptionFilter   FreeEnvironmentStringsW   GetStringTypeA   TlsSetValue   
+GetLocaleInfoA   SetFilePointer   GetCPInfo   IsValidLocale   SetStdHandle   TlsGetValue   
+WideCharToMultiByte   GetEnvironmentStringsW   FreeEnvironmentStringsA   GetCurrentThreadId   
+TlsAlloc   IsValidCodePage   DeleteCriticalSection   ExitProcess   FatalAppExitA   HeapAlloc   
+GetModuleFileNameA   RtlUnwind   GetVersion   DebugBreak   GetStdHandle   GetVersionExA   
+HeapDestroy   HeapCreate   TerminateProcess   SetHandleCount   GetFileType   GetStartupInfoA   
+InterlockedDecrement   OutputDebugStringA   InterlockedIncrement   EnterCriticalSection   
+LeaveCriticalSection   FlushFileBuffers   InitializeCriticalSection   
++++++++++++++++++++USER32.dll  < 10 > ==========================MessageBoxW   EmptyClipboard   
+SetClipboardData   OpenClipboard   GetClipboardData   CloseClipboard   UnhookWindowsHookEx   
+SetWindowsHookExA   CallNextHookEx   MessageBoxA   
+===tot moduler========0x00000002
+===tot moduler========KERNEL32.dll  106
+===tot moduler========USER32.dll  10
+======================================================
+KERNEL32.dll
+KERNEL32.dll              0x 7c957a40             LocalFree
+KERNEL32.dll              0x 7c9305d4             VirtualProtect
+KERNEL32.dll              0x 7c93043d             ReadFile
+KERNEL32.dll              0x 7c930340             IsBadCodePtr
+KERNEL32.dll              0x 7c9210ed             Module32Next
+KERNEL32.dll              0x 7c8647b7             Sleep
+KERNEL32.dll              0x 7c863ed8             CreateThread
+KERNEL32.dll              0x 7c863c00             ReleaseMutex
+KERNEL32.dll              0x 7c85e79b             GetLastError
+KERNEL32.dll              0x 7c859956             Process32Next
+KERNEL32.dll              0x 7c838cb9             IsBadWritePtr
+KERNEL32.dll              0x 7c8370ed             GetSystemTime
+KERNEL32.dll              0x 7c832e2b             OpenProcess
+KERNEL32.dll              0x 7c825f62             OpenMutexA
+KERNEL32.dll              0x 7c81f850             CreateRemoteThread
+KERNEL32.dll              0x 7c81dc3f             LCMapStringW
+KERNEL32.dll              0x 7c81d8cb             IsBadReadPtr
+KERNEL32.dll              0x 7c81caa2             GetCurrentProcess
+KERNEL32.dll              0x 7c812c8d             WaitForSingleObject
+KERNEL32.dll              0x 7c812c78             GetUserDefaultLCID
+KERNEL32.dll              0x 7c812be6             HeapValidate
+KERNEL32.dll              0x 7c812b0f             GetACP
+KERNEL32.dll              0x 7c812929             CompareStringA
+KERNEL32.dll              0x 7c812851             CompareStringW
+KERNEL32.dll              0x 7c8112e3             GetTimeZoneInformation
+KERNEL32.dll              0x 7c810f9f             CreateMutexA
+KERNEL32.dll              0x 7c81082f             MapViewOfFile
+KERNEL32.dll              0x 7c810626             OpenFileMappingA
+KERNEL32.dll              0x 7c810386             VirtualAllocEx
+KERNEL32.dll              0x 7c810119             GetPrivateProfileStringA
+KERNEL32.dll              0x 7c80eb3f             CreateFileMappingA
+KERNEL32.dll              0x 7c80d293             CloseHandle
+KERNEL32.dll              0x 7c80c9c1             GetProcAddress
+KERNEL32.dll              0x 7c80c6cf             GetLocaleInfoW
+KERNEL32.dll              0x 7c80b9fe             GlobalUnlock
+KERNEL32.dll              0x 7c80b859             VirtualQuery
+KERNEL32.dll              0x 7c80b78d             GetLocalTime
+KERNEL32.dll              0x 7c80ac28             LoadLibraryA
+KERNEL32.dll              0x 7c80a0c7             LCMapStringA
+KERNEL32.dll              0x 7c809fa1             Module32First
+KERNEL32.dll              0x 7c809f29             GetCommandLineA
+KERNEL32.dll              0x 7c809aa2             CreateFileA
+KERNEL32.dll              0x 7c809a81             WriteFile
+KERNEL32.dll              0x 7c809943             WriteProcessMemory
+KERNEL32.dll              0x 7c809919             SetUnhandledExceptionFilter
+KERNEL32.dll              0x 7c809794             Process32First
+KERNEL32.dll              0x 7c80977b             CreateToolhelp32Snapshot
+KERNEL32.dll              0x 7c809737             GetOEMCP
+KERNEL32.dll              0x 7c802530             GlobalLock
+KERNEL32.dll              0x 7c8024a7             GlobalAlloc
+KERNEL32.dll              0x 7c801eee             SetEndOfFile
+KERNEL32.dll              0x 7c801ad0             GetModuleHandleA
+KERNEL32.dll              0x 7c80176b             FormatMessageA
+KERNEL32.dll              0x 77d66116             HeapReAlloc
+KERNEL32.dll              0x 77d3ff10             HeapFree
+KERNEL32.dll              0x 77d3fcb2             VirtualFree
+KERNEL32.dll              0x 77d3f29f             VirtualAlloc
+KERNEL32.dll              0x 77d1ed6e             GetEnvironmentVariableA
+KERNEL32.dll              0x 73736572             SetLastError
+KERNEL32.dll              0x 72745365             SetConsoleCtrlHandler
+KERNEL32.dll              0x 72506574             GetCurrentThread
+KERNEL32.dll              0x 72430034             SetEnvironmentVariableA
+KERNEL32.dll              0x 6f725074             TlsFree
+KERNEL32.dll              0x 6f6c6c41             GetStringTypeW
+KERNEL32.dll              0x 6f4c6c61             MultiByteToWideChar
+KERNEL32.dll              0x 6e697070             EnumSystemLocalesA
+KERNEL32.dll              0x 6e556c61             GetEnvironmentStrings
+KERNEL32.dll              0x 6c694666             UnhandledExceptionFilter
+KERNEL32.dll              0x 6c61636f             FreeEnvironmentStringsW
+KERNEL32.dll              0x 6c470181             GetStringTypeA
+KERNEL32.dll              0x 694c6461             TlsSetValue
+KERNEL32.dll              0x 69466e65             GetLocaleInfoA
+KERNEL32.dll              0x 61757472             SetFilePointer
+KERNEL32.dll              0x 61657243             GetCPInfo
+KERNEL32.dll              0x 614d656c             IsValidLocale
+KERNEL32.dll              0x 5670614d             SetStdHandle
+KERNEL32.dll              0x 50746547             TlsGetValue
+KERNEL32.dll              0x 1930000             WideCharToMultiByte
+KERNEL32.dll              0x 18c0000             GetEnvironmentStringsW
+KERNEL32.dll              0x 11b0000             FreeEnvironmentStringsA
+KERNEL32.dll              0x 7972             GetCurrentThreadId
+KERNEL32.dll              0x 4179             TlsAlloc
+KERNEL32.dll              0x 4167             IsValidCodePage
+KERNEL32.dll              0x 0             DeleteCriticalSection
+KERNEL32.dll              0x 0             ExitProcess
+KERNEL32.dll              0x 0             FatalAppExitA
+KERNEL32.dll              0x 0             HeapAlloc
+KERNEL32.dll              0x 0             GetModuleFileNameA
+KERNEL32.dll              0x 0             RtlUnwind
+KERNEL32.dll              0x 0             GetVersion
+KERNEL32.dll              0x 0             DebugBreak
+KERNEL32.dll              0x 0             GetStdHandle
+KERNEL32.dll              0x 0             GetVersionExA
+KERNEL32.dll              0x 0             HeapDestroy
+KERNEL32.dll              0x 0             HeapCreate
+KERNEL32.dll              0x 0             TerminateProcess
+KERNEL32.dll              0x 0             SetHandleCount
+KERNEL32.dll              0x 0             GetFileType
+KERNEL32.dll              0x 0             GetStartupInfoA
+KERNEL32.dll              0x 0             InterlockedDecrement
+KERNEL32.dll              0x 0             OutputDebugStringA
+KERNEL32.dll              0x 0             InterlockedIncrement
+KERNEL32.dll              0x 0             EnterCriticalSection
+KERNEL32.dll              0x 0             LeaveCriticalSection
+KERNEL32.dll              0x 0             FlushFileBuffers
+KERNEL32.dll              0x 0             InitializeCriticalSection
+======================================================
+USER32.dll
+USER32.dll                0x 77d66116             MessageBoxW
+USER32.dll                0x 77d3ff10             EmptyClipboard
+USER32.dll                0x 77d3fcb2             SetClipboardData
+USER32.dll                0x 77d3f29f             OpenClipboard
+USER32.dll                0x 77d1ed6e             GetClipboardData
+USER32.dll                0x 0             CloseClipboard
+USER32.dll                0x 0             UnhookWindowsHookEx
+USER32.dll                0x 0             SetWindowsHookExA
+USER32.dll                0x 0             CallNextHookEx
+USER32.dll                0x 0             MessageBoxA
+USER32.dll                0x 0             MessageBoxA
+USER32.dll                0x 0             CallNextHookEx
+USER32.dll                0x 0             SetWindowsHookExA
+USER32.dll                0x 0             UnhookWindowsHookEx
+USER32.dll                0x 0             CloseClipboard
+KERNEL32.dll              0x 0             InitializeCriticalSection
+KERNEL32.dll              0x 0             FlushFileBuffers
+KERNEL32.dll              0x 0             LeaveCriticalSection
+KERNEL32.dll              0x 0             EnterCriticalSection
+KERNEL32.dll              0x 0             InterlockedIncrement
+KERNEL32.dll              0x 0             OutputDebugStringA
+KERNEL32.dll              0x 0             InterlockedDecrement
+KERNEL32.dll              0x 0             GetStartupInfoA
+KERNEL32.dll              0x 0             GetFileType
+KERNEL32.dll              0x 0             SetHandleCount
+KERNEL32.dll              0x 0             TerminateProcess
+KERNEL32.dll              0x 0             HeapCreate
+KERNEL32.dll              0x 0             HeapDestroy
+KERNEL32.dll              0x 0             GetVersionExA
+KERNEL32.dll              0x 0             GetStdHandle
+KERNEL32.dll              0x 0             DebugBreak
+KERNEL32.dll              0x 0             GetVersion
+KERNEL32.dll              0x 0             RtlUnwind
+KERNEL32.dll              0x 0             GetModuleFileNameA
+KERNEL32.dll              0x 0             HeapAlloc
+KERNEL32.dll              0x 0             FatalAppExitA
+KERNEL32.dll              0x 0             ExitProcess
+KERNEL32.dll              0x 0             DeleteCriticalSection
+KERNEL32.dll              0x 4167             IsValidCodePage
+KERNEL32.dll              0x 4179             TlsAlloc
+KERNEL32.dll              0x 7972             GetCurrentThreadId
+KERNEL32.dll              0x 11b0000             FreeEnvironmentStringsA
+KERNEL32.dll              0x 18c0000             GetEnvironmentStringsW
+KERNEL32.dll              0x 1930000             WideCharToMultiByte
+KERNEL32.dll              0x 50746547             TlsGetValue
+KERNEL32.dll              0x 5670614d             SetStdHandle
+KERNEL32.dll              0x 614d656c             IsValidLocale
+KERNEL32.dll              0x 61657243             GetCPInfo
+KERNEL32.dll              0x 61757472             SetFilePointer
+KERNEL32.dll              0x 69466e65             GetLocaleInfoA
+KERNEL32.dll              0x 694c6461             TlsSetValue
+KERNEL32.dll              0x 6c470181             GetStringTypeA
+KERNEL32.dll              0x 6c61636f             FreeEnvironmentStringsW
+KERNEL32.dll              0x 6c694666             UnhandledExceptionFilter
+KERNEL32.dll              0x 6e556c61             GetEnvironmentStrings
+KERNEL32.dll              0x 6e697070             EnumSystemLocalesA
+KERNEL32.dll              0x 6f4c6c61             MultiByteToWideChar
+KERNEL32.dll              0x 6f6c6c41             GetStringTypeW
+KERNEL32.dll              0x 6f725074             TlsFree
+KERNEL32.dll              0x 72430034             SetEnvironmentVariableA
+KERNEL32.dll              0x 72506574             GetCurrentThread
+KERNEL32.dll              0x 72745365             SetConsoleCtrlHandler
+KERNEL32.dll              0x 73736572             SetLastError
+USER32.dll                0x 77d1ed6e             GetClipboardData
+KERNEL32.dll              0x 77d1ed6e             GetEnvironmentVariableA
+USER32.dll                0x 77d3f29f             OpenClipboard
+KERNEL32.dll              0x 77d3f29f             VirtualAlloc
+USER32.dll                0x 77d3fcb2             SetClipboardData
+KERNEL32.dll              0x 77d3fcb2             VirtualFree
+USER32.dll                0x 77d3ff10             EmptyClipboard
+KERNEL32.dll              0x 77d3ff10             HeapFree
+USER32.dll                0x 77d66116             MessageBoxW
+KERNEL32.dll              0x 77d66116             HeapReAlloc
+KERNEL32.dll              0x 7c80176b             FormatMessageA
+KERNEL32.dll              0x 7c801ad0             GetModuleHandleA
+KERNEL32.dll              0x 7c801eee             SetEndOfFile
+KERNEL32.dll              0x 7c8024a7             GlobalAlloc
+KERNEL32.dll              0x 7c802530             GlobalLock
+KERNEL32.dll              0x 7c809737             GetOEMCP
+KERNEL32.dll              0x 7c80977b             CreateToolhelp32Snapshot
+KERNEL32.dll              0x 7c809794             Process32First
+KERNEL32.dll              0x 7c809919             SetUnhandledExceptionFilter
+KERNEL32.dll              0x 7c809943             WriteProcessMemory
+KERNEL32.dll              0x 7c809a81             WriteFile
+KERNEL32.dll              0x 7c809aa2             CreateFileA
+KERNEL32.dll              0x 7c809f29
